@@ -1,33 +1,15 @@
-The most similar command is
-        add
-PS C:\Users\Stevie\Documents\16i - proyectos Rolling\1era clase js> git add .
-PS C:\Users\Stevie\Documents\16i - proyectos Rolling\1era clase js> gitt commit -m "Primer Comgitt : El término 'gitt' no se reconoce como nombre de un cmdlet, función, archivo de script  
-de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
-En línea: 1 Carácter: 1
-+ gitt commit -m "Primer Commit"
-+ ~~~~
-    + CategoryInfo          : ObjectNotFound: (gitt:String) [], CommandNotFoundException      
-    + FullyQualifiedErrorId : CommandNotFoundException
- 
-PS C:\Users\Stevie\Documents\16i - proyectos Rolling\1era clase js> git commit -m "Primer Commit" 
- 3 files changed, 27 insertions(+)
- create mode 100644 js/primeraClase.js
- create mode 100644 js/segundaClase.js
-PS C:\Users\Stevie\Documents\16i - proyectos Rolling\1era clase js> git remote add origin https://github.com/ArborioEsteban/practicasDeJs.git
-PS C:\Users\Stevie\Documents\16i - proyectos Rolling\1era clase js> git branch -M master      
-PS C:\Users\Stevie\Documents\16i - proyectos Rolling\1era clase js> git push -u origin master 
-Enumerating objects: 6, done.
-Counting objects: 100% (6/6), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (5/5), done.
-Writing objects: 100% (6/6), 776 bytes | 388.00 KiB/s, done.
-Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/ArborioEsteban/practicasDeJs.git
- * [new branch]      master -> master
-branch 'master' set up to track 'origin/master'.
-PS C:\Users\Stevie\Documents\16i - proyectos Rolling\1era clase js> git checkout -b dev       
+1) git add .
+2) git commit -m "Primer Commit" 
+3) git remote add origin https://github.com/ArborioEsteban/practicasDeJs.git
+4) git branch -M master      
+5) git push -u origin master 
+
+aqui cambiamos de rama :
+
+6) git checkout -b dev       
 Switched to a new branch 'dev'
-PS C:\Users\Stevie\Documents\16i - proyectos Rolling\1era clase js> git branch
+7) aqui preguntamos a git en que rama estamos con el comando : 
+ git branch
+
 * dev
   master
-PS C:\Users\Stevie\Documents\16i - proyectos Rolling\1era clase js> 
