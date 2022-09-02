@@ -7,7 +7,6 @@ let contador = texto.length - 1;
 let cadenaFinal="";
 for(let i = contador ; i >= 0 ; i--){
     cadenaFinal = cadenaFinal + texto.charAt(i);
-    // concat(texto.charAt(i));
 }
 
 console.log(cadenaFinal);
