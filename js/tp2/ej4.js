@@ -2,7 +2,7 @@
 
 let suma = 0;
 while(true){
-    const numero = prompt("Ingrese un numero");
+    let numero = prompt("Ingrese un numero");
     if(!isNaN(numero) && numero!=""){
         let numDeSuma = Number(numero);
         suma = suma + numDeSuma;
